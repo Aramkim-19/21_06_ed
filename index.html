@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>한국의 우주 산업</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;500;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;400;500;600;700;900&family=Noto+Serif+KR:wght@50; 100;200;300;500;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" href="favicon.ico">
+		
+		<meta name="description" content="전 세계적으로 우주 산업이 활발해지고 있습니다. 우주가 주는 경제적 이점이 있기 때문입니다. 멀게만 느껴졌던 우주에 어떤 이점이 있는 걸까요? 이러한 흐름 속에서 현재 한국의 우주 산업 상황과 앞으로 나아갈 방향에 대해 생각해 봅니다.   ">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content=" <!-- 수정하기 -->">
+		<meta property="og:image" content="./A.png">
+		<meta property="og:title" content="한국의 우주 산업">
+		<meta property="og:description" content="전 세계적으로 우주 산업이 활발해지고 있습니다. 우주가 주는 경제적 이점이 있기 때문입니다. 멀게만 느껴졌던 우주에 어떤 이점이 있는 걸까요? 이러한 흐름 속에서 현재 한국의 우주 산업 상황과 앞으로 나아갈 방향에 대해 생각해 봅니다.">
+
+		
+
+	<style type="text/css">
+			
+			body, section, img, h1, p {margin: 0;}
+			body {background-color: black;}
+			section { width: 100vw; height: 100vh; background: black; overflow:hidden; word-break: keep-all;}
+
+			h1 {font-family: 'Noto Serif JP', serif;font-weight: 600; 
+				color: white; text-align: left;padding-top: px; padding-bottom:px; font-size:7em; line-height:1.2em;}
+
+			p {font-family: 'Noto Sans KR', sans-serif; font-weight: 100; 
+				color: white; text-align: center; font-size: 0.9em; line-height: 1.5em;}
+			html {scroll-behavior: smooth;}	
+
+		
+
+			.row {width: 1500px; padding-bottom: 2000px; margin:auto; position: relative;}
+			.row2 {width: 1450px; padding-bottom: 150px; margin:auto; position: relative; margin-top: 100px; margin-bottom: 20px; margin-left: 20px;}
+
+			.grid{display: grid; 	
+					grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px; 
+					grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+					gap: 10px 0px ; }
+
+			.a { grid-area: 3 / 2 / 5 / 6 ; }
+			.b { grid-area: 1 / 1 / 3 / 3 ; width: 130%; opacity: 10%; animation: jump 12s forwards infinite; }
+			.b_1 { grid-area: 2 / 3 / 4 / 5 ; width: 150%; opacity: 30%; animation: jump 8s forwards infinite;}
+			.b_3 { grid-area: 2 / 9 / 4 / 11 ; width: 110%; opacity: 10%;animation: jump 4s forwards infinite;}
+			.b_4 { grid-area: 1 / 7 / 3 / 9 ; width: 120%; opacity: 20%;}
+			.b_5 { grid-area: 3 / 5 / 5 / 9 ; width: 70%; opacity: 10%; animation: jump 6s forwards infinite;}
+			
+
+			.b_6 { grid-area: 6 / 1 / 7 / 3 ; width: 130%; opacity: 10%;}
+			.b_9 { grid-area: 3 / 8 / 7 / 10 ; width: 140%; opacity: 10%; animation: jump 10s forwards infinite;}
+			.b_10 { grid-area: 5 / 6 / 6 / 8 ; width: 140%; opacity: 10%; animation: jump 8s forwards infinite;}
+			.b_11 { grid-area: 4 / 3 / 6 / 5 ; width: 140%; opacity: 10%; animation: jump 5s forwards infinite;}
+			.b_12 { grid-area: 6 / 5 / 8 / 7 ; width: 120%; opacity: 10%; animation: jump 13s forwards infinite;}
+			
+
+			.b_13 { grid-area: 8 / 8 / 10 / 10 ; width: 120%; opacity: 20%;}
+			.b_14 { grid-area: 10 / 6 / 10 / 8 ; width: 120%; opacity: 10%;}
+			.b_15 { grid-area: 9 / 4 / 11 / 6 ; width: 130%; opacity: 10%; animation: jump 8s forwards infinite;}
+			.b_16 { grid-area: 11 / 2 / 13 / 4 ; width: 130%; opacity: 10%;animation: jump 13s forwards infinite;}
+			.b_17 { grid-area: 12 / 9 / 14 / 11 ; width: 100%; opacity: 20%; animation: jump 5s forwards infinite;}		
+			.b_18 { grid-area: 13 / 7 / 15 / 10 ; width: 90%; opacity: 20%; animation: jump 15s forwards infinite;}		
+			.b_19 { grid-area: 12 / 1 / 14 / 4 ; width: 80%; opacity: 20%; animation: jump 3s forwards infinite;}
+			.b_20 { grid-area: 14 / 4 / 15 / 6 ; width: 120%; opacity: 20%; animation: jump 5s forwards infinite;}
+
+						
+	
+
+			@keyframes jump{0%{} 100%{transform: rotate3d(0,1,0,360deg); } }
+			
+			#two{ opacity: 0 }	
+			#one:hover ~ #two { opacity: 0.4 ; }
+			#one:hover {position: relative; top: 70px; animation: jump 5s forwards infinite; } 
+			
+			#three{ opacity: 0 }	
+			#one:hover ~ #three { opacity: 0.2 }
+
+			#you{ opacity: 0 }	
+			#me:hover ~ #you { opacity: 0.4 }
+			#your{ opacity: 0 }	
+			#me:hover ~ #your { opacity: 0.2 } 
+			#me:hover {position: relative; top: -100px; animation: jump 6s forwards infinite;} 
+
+			#five{ opacity: 0 }
+			#four:hover ~ #five { opacity: 0.4 }
+			#six{ opacity: 0 }	
+			#four:hover ~ #six { opacity: 0.2 } 
+			#four:hover {position: relative; top: 100px; animation: jump 3s forwards infinite;}
+
+
+
+			.flex {display: flex;}
+			.width {width: 50%;}
+			.swiper-container {width: 100%; height: 100%; position:absolute; top: 1300px; left: 160px;}
+
+			.swiper-container {
+	        width: 1200px;
+	        height: 560px; }     
+	    .swiper-slide {text-align: center;font-size: 18px;background: #fff;
+	      		font-family: 'Noto Serif JP', serif;font-weight: 600; font-size: 5em; color: white;
+
+	        /* Center slide text vertically */
+	        display: flex;
+	        justify-content: center;
+	       	align-items: center;}
+
+	    .swiper-slide img {display: block; width: 100%; height: 100%; object-fit: cover;}
+	    
+	    #s1{background: url(l1.png); background-color: black; }
+	    #s1:hover {background: url(l1.png); background-color: #013FB6; }
+	   
+	   	#s2{background: url(l2.png); background-color: black; }
+	    #s2:hover {background: url(l2.png); background-color:#FF6A5B; }
+	    
+	    #s3{background: url(l3.png); background-color: black; }
+	    #s3:hover {background: url(l3.png); background-color: #5FC9BC; }
+	    
+	    #s4{background: url(l4.png); background-color: black; }
+	    #s4:hover {background: url(l4.png); background-color: #7754BA; }  
+	    
+	    #s5{background: url(l6.png); background-color: black; }
+	    #s5:hover {background: url(l6.png); background-color: #FFFF99; }
+
+	    a{ color: white; text-decoration: none;}
+	    a:hover{ position: relative; top: -10px; text-decoration: none;}
+
+
+
+
+
+
+
+
+	</style>
+	    
+</head>
+<body>
+	<section class="row grid"> 
+		<img src= "b1.png" id="one" class="b_4">
+		<img src= "b1.png" id="three" class="b" >
+		<img src= "b1.png" class="b_1 " id="two">
+		<img src= "b1.png" class="b_3" id="two" >
+		<img src= "b1.png" class="b_5" id="three" >
+
+		
+		<img src= "b1.png" id="me" class="b_6" >
+		<img src= "b1.png" class="b_9" id="you" >
+		<img src= "b1.png" class="b_10" id="your" >
+		<img src= "b1.png" class="b_11" id="you" >
+		<img src= "b1.png" class="b_12" id="your" >
+		
+
+		
+		<img src= "b1.png" id="four" class="b_14" >
+		<img src= "b1.png" id="five" class="b_15" >
+		<img src= "b1.png" id="six" class="b_16" >
+		<img src= "b1.png" id="six" class="b_17" >
+		<img src= "b1.png" id="five" class="b_18" >
+		<img src= "b1.png" id="five" class="b_19" >
+		
+		
+		<div class="a" >
+			<h1 >KOREA’S <br> SPACE <br> INDUSTRY</h1></div>
+
+		 
+
+		</section> 
+  
+ 		 
+			
+		<div class="swiper-container mySwiper">
+      <!-- Swiper -->
+			<div class=" swiper-wrapper  ">
+        <div class="swiper-slide " id="s1"><a href="index1.html">WHY</a></div>
+       	<div class="swiper-slide " id="s2"><a href="index2.html">WHERE</a></div>
+        <div class="swiper-slide " id="s3"><a href="index3.html">WHAT</a></div>
+        <div class="swiper-slide " id="s4"><a href="index4.html">HOW</a></div>
+        <div class="swiper-slide " id="s5"><a href="index5.html">ABOUT</a></div>
+       </div>
+ 			<div class="swiper-pagination"></div>
+    </div>
+
+    <div class=" row2 flex"> 
+    	<p class="width">REFERENCE <br><br> 글<br>국민일보 문홍규 천문연구원 책임연구원 인터뷰<br><br> 그림 <br> 과학기술정보통신부<br> google</p>  
+
+    	<p class="width">PRODUCTION<br><br> 서울특별시 노원구 공릉로 232 서울과학기술대학교 6층 시각디자인과 <br><br> clamp9011@gmail.com<br><br> Aram Kim</p>
+
+    </div>
+
+
+
+ 		
+		<!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+
+</body>
+</html>

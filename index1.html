@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>한국의 우주 산업</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;500;700;900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;400;500;600;700;900&family=Noto+Serif+KR:wght@50; 100;200;300;500;700&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="favicon.ico">
+  		<link rel="icon" href="favicon.ico">
+
+		
+	
+
+	<style type="text/css">
+			
+			body, section, img, h1, p {margin: 0;}
+			body {background-color:#013FB6; }
+			section { width: 100vw; height: 100vh; overflow:hidden; word-break: keep-all;}
+
+			h1 {font-family: 'Noto Serif JP', serif;font-weight: 900; 
+				color: black; text-align: center; padding-bottom:px; font-size:7em; line-height: 1em;}
+
+			h2 {font-family: 'Noto Sans KR', sans-serif; font-weight: 700; 
+				color: white; text-align: center; font-size: 2.3em;}
+
+			p {font-family: 'Noto Sans KR', sans-serif; font-weight: 500; 
+				color: white; text-align: center; font-size: 1.2em; line-height: 1.6em;}
+
+		
+
+			.grid{display: grid; 	
+					grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px; 
+					grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+					gap: 10px 0px ; }
+			.row {width: 1500px; padding-bottom:0px; margin:auto; position: relative;}
+			.row3 {width: 500px; position: relative; margin:auto;}
+		
+			
+
+			.a { position:absolute; left: 410px; top: 615px}
+			.a_1 { position:absolute; left: 600px; top: 10px}
+
+			.b { grid-area: 1 / 2 / 5 / 4 ; background: white; opacity: 25%; box-shadow:  0px 0px 5px 15px white;}
+			.b_1 { grid-area: 1 / 18 / 5 / 20 ; background: white; opacity: 25%; box-shadow:  0px 0px 5px 15px white;}
+			.b_2 { grid-area: 1 / 5 / 4 / 16 ; width: 115%; opacity: 60%; position:absolute; top: -400px }
+			
+			.img1{ width: 38%; position:absolute; left: 470px; top: 50px }
+			.img1:hover { top: 80px; }
+
+			.t { left:120px; width: 0px; top :-200px;  width: 4%; animation: goback3 2s infinite cubic-bezier(.2,.6,.41,.8);}
+			.t_1 { left:70px; width: 0px; top :-200px;  width: 3%; animation: goback3 4s infinite cubic-bezier(.2,.6,.41,.8);}
+			.t_2 { left:80px; width: 0px; top :-200px;  width: 10%; animation: goback3 1s infinite cubic-bezier(.2,.6,.41,.8);}
+			.t_3 { left:100px; width: 0px; top :-200px;  width: 5%; animation: goback2 5s infinite cubic-bezier(.2,.6,.41,.8);}
+			.t_4 { left:150px; width: 0px; top :-200px;  width: 3%; animation: goback3 3s infinite cubic-bezier(.2,.6,.41,.8);}
+
+
+			.t_5 { left:1270px; width: 0px; top :-200px;  width: 10%; animation: goback3 5s infinite cubic-bezier(.2,.6,.41,.8);}
+			.t_6 { left:1400px; width: 0px; top :-200px;  width: 3%; animation: goback3 1s infinite cubic-bezier(.2,.6,.41,.8);}
+			.t_7 { left:1360px; width: 0px; top :-200px;  width: 3%; animation: goback2 3.5s infinite cubic-bezier(.2,.6,.41,.8);}
+			.t_8 { left:1350px; width: 0px; top :-250px;  width: 8%; animation: goback3 8s infinite cubic-bezier(.2,.6,.41,.8);}
+			.t_9 { left:1300px; width: 0px; top :-200px;  width: 5%; animation: goback3 2.5s infinite cubic-bezier(.2,.6,.41,.8);}
+			.t_10 { left:1250px; width: 0px; top :-200px;  width: 5%; animation: goback3 1.5s infinite cubic-bezier(.2,.6,.41,.8);}
+
+
+			
+			.absolute {display: block; position: absolute;}
+			.back {background-color:#FF6A5B; box-shadow: 0px 0px 100px #FF6A5B; }
+			.m { text-align: center; }
+			.m2 { margin:auto; }
+			.n1 { left:10px; width: 0px; top :350px; }
+			.n2 { left:1480px; width: 0px; top :350px; }
+			.n3 {animation: jump 1.5s infinite}
+
+			@keyframes jump{0%{} 100%{transform: rotate3d(0, 0, 1, 45deg); } }
+			@keyframes goback3{ from{ top: 300% } }
+			@keyframes goback2{ from{ top: 200% } }
+
+			nav{position: fixed; z-index: 30; }
+			a{ font-size: 1qem;  font-weight:600; color: white; text-decoration: none; line-height: 2;}
+			a:hover{ font-size: 1.2em;  font-weight:600; color: black; text-decoration: none;}
+
+		</style>
+	    
+</head>
+
+<body>
+	<nav>
+		<a href="index.html" class="absolute n1">MAIN</a><br>
+		<a href="index2.html" class="absolute n2">NEXT</a>
+		
+	</nav>
+	
+	<section class="row grid ">
+		<img src= "l1.png" class="  b_2 "  >
+		
+		<div class="a_1"> <h1 >WHY</h1> </div>
+		
+		
+
+		<a href="javascript:a();"> <img class="img1" src="./why1.png"></a>
+				
+		<div class="drag back" id="internethover" style=" top: 170px; left: 170px; height: 500px; width: 600px; border-radius: 15px;">
+				
+		<div class="Internet row3" >
+				<h2 >지금은 우주대항해 시대</h2><p>2020년 4월 미국 정부는 새로운 법 통과시켰다.<br> 자국 기업이 달을 비롯한 우주 자원을 자유롭게 채굴할 수 있게 돕겠다는 법안이다. 102개국이 가입하고 27개국이 서명한 <br>우주 헌법으로 불리는 우주 조약에는 상업적 행위에 대한 조항이 없기 때문에 이러한 결정을 내릴 수 있었다. <br>특히 미국 항공우주국(NASA)가 민간기업이 달에서 채취한 토양 샘플을 구입하겠다는 제안을 하면서 미국이 우주 자원에 대한 소유를 공식화하려는 조짐이 보이자 전 세계적으로 우주 산업에 뛰어들고 있다. 바야흐로 우주 대항해 시대가 시작되었다!</p><br>
+				
+
+				<form action="index1.html" class="m"> 
+				<input type="submit" value="colse" style=" top: 50px; background: #013FB6; color: white; font-size:1em; padding:9px 20px; border-radius: 5px; border-color: white;"  >
+			</form> 
+		     <a><img class="img1 n3 drag" src="./why2.png" style=" top: -100px; left: 400px; height: 450px; width: 900px; "></a>
+
+		</div>
+		</div>
+		
+		
+		<div class="a " > <h1 >DISCOVERY </h1> </div>
+
+		<div class="b"></div>
+		<div class="b_1"></div>
+
+		<img src= "t2_1.png"  class=" absolute t" >
+		<img src= "t2.png"  class=" absolute t_1" >
+		<img src= "t2.png"  class=" absolute t_2" >
+		<img src= "t2.png"  class=" absolute t_3" >
+		<img src= "t2.png"  class=" absolute t_4" >
+
+		<img src= "t2.png"  class=" absolute t_5" >
+		<img src= "t2.png"  class=" absolute t_6" >
+		<img src= "t2.png"  class=" absolute t_7" >
+		<img src= "t2.png"  class=" absolute t_8" >
+		<img src= "t2.png"  class=" absolute t_9" >
+		<img src= "t2_1.png"  class=" absolute t_10" >
+
+</section>
+
+<script type="text/javascript">
+	var index = 10;		
+
+(function(){
+	
+		var d = false;
+		var target,cx,cy,lx,ly;
+		var t = document.getElementsByClassName("drag");
+		for(var i=0; i<t.length; i++){
+			t[i].style.display = "block";
+			t[i].style.position = "absolute";
+			t[i].style.cursor = "pointer";
+			t[i].ondragstart = function(e){e.preventDefault();};
+			t[i].onmousedown = function(e){ d = true; target = e.target; cx = e.clientX; cy = e.clientY; lx=parseInt(e.target.style.left); ly=parseInt(e.target.style.top);console.log(lx,ly);
+				con.style.zIndex = index;}
+			t[i].onmouseup = function(){ d = false;}
+			window.onmousemove = function(e){ 
+				if(d){ target.style.left = (lx + e.clientX - cx) + "px"; target.style.top = (ly + e.clientY - cy) + "px";}
+			}
+		}
+	})();
+
+	document.getElementById("internethover").style.display = 'none';
+function a(){
+	index = index + 5;
+	var con=document.getElementById("internethover");
+	if(con.style.display=='none'){
+		con.style.zIndex = index;
+		con.style.display = 'block';
+	}else{
+		con.style.display = 'none';
+	}
+}
+</script>
+
+
+ 		
+		
+
+</body>
+</html>

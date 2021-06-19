@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>한국의 우주 산업</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;500;700;900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;400;500;600;700;900&family=Noto+Serif+KR:wght@50; 100;200;300;500;700&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" href="favicon.ico">
+ 		 <link rel="icon" href="favicon.ico">
+
+		
+	
+
+	<style type="text/css">
+			
+			body, section, img, h1, p {margin: 0;}
+			body {background-color:#5FC9BC; }
+			section { width: 100vw; height: 100vh; overflow:hidden; word-break: keep-all;}
+
+			h1 {font-family: 'Noto Serif JP', serif;font-weight: 900; 
+				color: black; text-align: center; padding-bottom:px; font-size:7em; line-height: 1em;}
+
+			h2 {font-family: 'Noto Sans KR', sans-serif; font-weight: 700; 
+				color: white; text-align: center; font-size: 2.3em;}
+
+			p {font-family: 'Noto Sans KR', sans-serif; font-weight: 500; 
+				color: white; text-align: center; font-size: 1.2em; line-height: 1.5em;}
+
+
+		
+
+			.grid{display: grid; 	
+					grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px 200px; 
+					grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+					gap: 10px 0px ; }
+			.row {width: 1500px; padding-bottom:0px; margin:auto; position: relative;}
+			.row3 {width: 500px; position: relative; margin:auto;}
+			
+
+			.a { position:absolute; left: 360px; top: 615px}
+			.a_1 { position:absolute; left: 560px; top: 10px}
+
+			.b { grid-area: 1 / 2 / 5 / 4 ; background: white; opacity: 25%; box-shadow:  0px 0px 5px 15px white;}
+			.b_1 { grid-area: 1 / 18 / 5 / 20 ; background: white; opacity: 25%; box-shadow:  0px 0px 5px 15px white;}
+			.b_2 { grid-area: 1 / 2 / 4 / 16 ; width: 100%; opacity: 60%; position:absolute; top: -100px }
+			
+			.img1{ width: 33%; position:absolute; left: 515px; top: 90px }
+			.img1:hover { top: 130px; }
+
+			.t { left:120px; width: 0px; top :-200px;  width: 4%; animation: goback3 2s infinite cubic-bezier(.2,.6,.41,.8);}
+			.t_1 { left:70px; width: 0px; top :-200px;  width: 3%; animation: goback3 4s infinite cubic-bezier(.2,.6,.41,.8);}
+			.t_2 { left:80px; width: 0px; top :-200px;  width: 9%; animation: goback3 1s infinite cubic-bezier(.2,.6,.41,.8);}
+			.t_3 { left:100px; width: 0px; top :-200px;  width: 5%; animation: goback2 5s infinite cubic-bezier(.2,.6,.41,.8);}
+			
+			.t_11 { left:70px; width: 0px; top :-200px;  width: 3%; animation: goback3 1.8s infinite cubic-bezier(.2,.6,.41,.8);}
+
+
+			.t_5 { left:1270px; width: 0px; top :-200px;  width: 6%; animation: goback3 5s infinite cubic-bezier(.2,.6,.41,.8);}
+			.t_6 { left:1400px; width: 0px; top :-200px;  width: 3%; animation: goback3 1s infinite cubic-bezier(.2,.6,.41,.8);}
+			.t_7 { left:1360px; width: 0px; top :-200px;  width: 3%; animation: goback2 3.5s infinite cubic-bezier(.2,.6,.41,.8);}
+			.t_8 { left:1350px; width: 0px; top :-250px;  width: 8%; animation: goback3 8s infinite cubic-bezier(.2,.6,.41,.8);}
+			.t_9 { left:1300px; width: 0px; top :-200px;  width: 5%; animation: goback3 2.5s infinite cubic-bezier(.2,.6,.41,.8);}
+			.t_10 { left:1250px; width: 0px; top :-200px;  width: 5%; animation: goback3 1.5s infinite cubic-bezier(.2,.6,.41,.8);}
+
+			
+			.absolute {display: block; position: absolute;}
+			.back {background-color:#7754BA; box-shadow: 0px 0px 100px #7754BA; }
+			.m { text-align: center;}
+			.n1 { left:10px; width: 0px; top :350px; }
+			.n2 { left:1480px; width: 0px; top :350px; }
+			.n3 {animation: jump 6s infinite cubic-bezier(.2,.6,.41,.8);}
+			.n4 {animation: goback1 2s infinite cubic-bezier(.2,.6,.41,.8);}
+
+			@keyframes jump{0%{} 100%{transform: rotate(360deg); } }
+			@keyframes goback3{ from{ top: 300% } }
+			@keyframes goback2{ from{ top: 200% } }
+			@keyframes goback1{ from{ top: 150% } }
+
+
+			nav{position: fixed; z-index: 30; }
+			a{ font-size: 1qem;  font-weight:600; color: white; text-decoration: none; line-height: 2;}
+			a:hover{ font-size: 1.2em;  font-weight:600; color: black; text-decoration: none;}
+		
+
+
+	    
+
+
+
+
+
+	</style>
+	    
+</head>
+
+<body>
+	<nav>
+		<a href="index.html" class="absolute n1">MAIN</a><br>
+		<a href="index4.html" class="absolute n2">NEXT</a>
+		
+	</nav>
+	
+	<section class="row grid "> 
+		<img src= "l3.png" class="  b_2 "  >
+		
+		<div class="a_1"> <h1 >WHAT</h1> </div>
+		
+		<a href="javascript:a();"> <img class="img1" src="./what1.png"></a>
+				
+		<div class="drag back" id="internethover" style=" top: 20px; left: 200px; height: 500px; width: 600px; border-radius: 15px;">
+				
+		<div class="Internet row3" >
+				<h2 >한때 3대 천문강국 한국</h2> <p>17세기 전까지 페르시아, 중국과 더불어 한국의 천문학은 세계 최고였다. 태조 이성계 때의 '천상열차분야지도'는 세계에서 두 번째로 오래된 천문도였고, 세종시대 실외용 천문 관측기구인 '간의'는 갈릴레이 망원경 170년 전에 만들어졌다. 이게 당시엔 허블우주망원경이었고 수소 원자시계였으며, GPS였던 거다. 그렇다면 21세기 한국도 천문강국일까? 현재 한국의 우주 기술은 지구 궤도에서는 정상급이지만 지구 중력권 밖으로 나간 적은 없다. 지난달 3월에 '누리호’가 종합 연소시험에 성공했고 10월에 발사 예정을 앞두고 있지만, 아랍에미리트(UAE)와 중국이 잇따라 화성 궤도 진입에 성공한 이 시점에서 한국의 우주 기술은 상대적으로 너무 느리다. </p><br>
+
+				<form action="index3.html" class="m"> 
+				<input type="submit" value="colse" style=" top: 50px; color: white; background: #5FC9BC; font-size:1em; padding:9px 20px; border-radius: 5px; border-color: white;" >
+			</form> 
+			<a><img class="img1 n3 drag" src="./what2.png" style=" top: 50px; left: 500px; height: 600px; width: 400px; "></a>
+			<p class="drag n4" style=" top: 500px; left: 700px;  width: 400px;"> i'm 천상열차분야지도</p>
+		</div>
+		</div>
+		
+		<div class="a " > <h1 >ASTRONOMY </h1> </div>
+
+		<div class="b"></div>
+		<div class="b_1"></div>
+
+		<img src= "t2_1.png"  class=" absolute t" >
+		<img src= "t2.png"  class=" absolute t_1" >
+		<img src= "t2.png"  class=" absolute t_2" >
+		<img src= "t2.png"  class=" absolute t_3" >
+		
+		<img src= "t2_2.png"  class=" absolute t_11" >
+
+		<img src= "t2_2.png"  class=" absolute t_5" >
+		<img src= "t2.png"  class=" absolute t_6" >
+		<img src= "t2.png"  class=" absolute t_7" >
+		<img src= "t2.png"  class=" absolute t_8" >
+		<img src= "t2.png"  class=" absolute t_9" >
+		<img src= "t2_1.png"  class=" absolute t_10" >
+
+</section>
+
+<script type="text/javascript">
+	var index = 10;		
+
+(function(){
+	
+		var d = false;
+		var target,cx,cy,lx,ly;
+		var t = document.getElementsByClassName("drag");
+		for(var i=0; i<t.length; i++){
+			t[i].style.display = "block";
+			t[i].style.position = "absolute";
+			t[i].style.cursor = "pointer";
+			t[i].ondragstart = function(e){e.preventDefault();};
+			t[i].onmousedown = function(e){ d = true; target = e.target; cx = e.clientX; cy = e.clientY; lx=parseInt(e.target.style.left); ly=parseInt(e.target.style.top);console.log(lx,ly);
+				con.style.zIndex = index;}
+			t[i].onmouseup = function(){ d = false;}
+			window.onmousemove = function(e){ 
+				if(d){ target.style.left = (lx + e.clientX - cx) + "px"; target.style.top = (ly + e.clientY - cy) + "px";}
+			}
+		}
+	})();
+
+	document.getElementById("internethover").style.display = 'none';
+function a(){
+	index = index + 5;
+	var con=document.getElementById("internethover");
+	if(con.style.display=='none'){
+		con.style.zIndex = index;
+		con.style.display = 'block';
+	}else{
+		con.style.display = 'none';
+	}
+}
+</script>
+
+
+
+ 		
+		
+
+</body>
+</html>
